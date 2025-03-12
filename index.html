@@ -1,137 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/36f3f39cf2.js" crossorigin="anonymous"></script>
     <title>Alana Spinelli</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="imgs/favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1 id="Meu_arroba">@Alana-s</h1>
-        <h1>Oi, eu sou a Alana Vitoria De Santi Spinelli</h1>
-        <h2>Estudante de Sistemas de informação!</h2>
-        <h3>"O aprendizado é contínuo e sempre haverá um próximo nível" 🚀</h2>
-        
+        <nav class="navigation">
+            <span class="logo">Alana Spinelli</span>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link active" id="about" href="#titulo_sobre">About</a></li>
+                <li class="nav-item"><a href="#titulo_skills">Skills</a></li>
+                <li class="nav-item"><a href="#titulo_projetos">Projects</a></li>
+                <a href="https://github.com/Alana-s" target="_blank" rel="noopener noreferrer">
+                    <i id="fa-github" class="fa-brands fa-github"></i>
+                </a>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- Switch para alternar o modo escuro/claro -->
+            <div id="dark-mode-switch" class="switch">
+                <span class="switch-ball"></span>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <a href="#titulo_sobre">Sobre</a>
-        <a href="#skills">Skills</a>
-        <a href="#titulo_projetos">Portfólio</a>
-    </nav>
     <main>
-        <h1 id="titulo_sobre">Sobre mim</h1>
-        <div class="sobre_mim">
-            <p>Atualmente sou estudante de Sistemas de informação, na Universidade Anhembi Morumbi e estou no terceiro semestre. Eu gosto muito de aprender, adquirir conhecimento e poder ajudar outras pessoas, assim crescendo junto com todos. Almejo ser uma grande profissional e um grande ser humano, poder transformar vidas e sempre estar em evolução. Mais abaixo, contém mais informações sobre minha vida acadêmica e profissional, e também meus contatos, os quais você poderá usar para entrar em contato comigo.</p>
-
-            <picture id="icone">
-                <img src="imgs/Imagem1.jpg" alt="">
-            </picture>
-        </div>
-
-        <h1 id="titulo_formacao">Formação acadêmica</h1>
-        <div class="formacao">
-            <p>Ensino Médio | ETEC PROF CAMARGO ARANHA | 2018-2020</p>
-            <p>Lingua Inglesa | Nível Intermediário - Estudando para atingir o nível Avançado</p>
-            <p>Curso superiro | Universidade Anhembi Morumbi | 2021-2024</p>
-
-            <div id="cursos">
-                <h1 id="titulo_cursos">Cursos</h1>
-            <ul>
-                <li>Curso de desenvolvimento web HTML e CSS</li>
-                <li>Curso de linguagem de programção Python</li>
-                <li>Curso de linguagem de programação C</li>
-            </ul>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Olá, como vai?</h4>
+                <h1 class="text-h1">Sou Alana Spinelli</h1>
+                <hr/>
+                <p>Engenheira de software, apaixonada em gatos e em desafios.</p>
             </div>
-        </div>
-        <section class="skills">
-            <h1 id="skills">Skills</h1>
-            <p>HTML e CSS para desenvolvimento web</p>
-            <br>
-            <p>Linguagem de programção Python</p>
-            <br>
-            <p>Linguagem de programação C - conhecimento básico</p>
-            <br>
-            <p>Pacote Office intermediário</p>
-
-            <div id="habilidades">
-                <h2>Me considero uma pessoa:</h2>
-                <ul>
-                    <li>Comunicativa</li>
-                    <li>Resiliente</li>
-                    <li>Empática</li>
-                    <li>Ágil</li>
-                    <li>Com Espírito de liderança</li>
-                </ul>
+            <div class="home-img">
+                <img src="https://avatars.githubusercontent.com/u/81982498?v=4" alt="Alana Spinelli">
+            </div>
+        </section>
+        
+        <section class="hero">
+            <header class="hero-conteudo">
+                <span class="destaque marrom" id="titulo_sobre">Sobre mim</span>
+                <hr/>
+                <p >Sou engenheira de software e apaixonada por resolver problemas e otimizar processos de desenvolvimento. Adoro pensar em cada etapa do ciclo de vida de um projeto, trazendo soluções criativas e eficientes. Além disso, gosto de compartilhar meu conhecimento e explicar conceitos com clareza, o que me permite enfrentar os desafios do dia a dia com confiança. Além disso, aprecio estar com amigos, família e meu gatos curtindo um bom pôr do sol ou me deixando levar pela energia de festivais e shows ao vivo.
+                </p>
+            </header>
+            <div class="hero-imagens-container">
+                <figure><img src="images/image-14.jpeg"/></figure>
+                <figure><img src="images/image-16.jpeg"/></figure>
+                <figure><img src="images/image-17.jpeg"/></figure>
+                <figure><img src="images/image-paisagem.jpeg"/></figure>
+                <figure><img src="images/image-12.jpeg"/></figure>
+                <figure><img src="images/image-18.jpeg"/></figure>
+                <figure><img src="images/image-15.jpeg"/></figure>
+                <figure><img src="images/image-cafe.jpeg"/></figure>
+                <figure><img src="images/image-10.jpeg"/></figure>
+                <figure><img src="images/image-11.jpeg"/></figure>
+                <figure><img src="images/image-13.jpeg"/></figure>
+                <figure><img src="images/image-mao.jpeg"/></figure>
             </div>
         </section>
 
-        <section>
-            <h1 id="titulo_projetos">Projetos</h1>
-            <div class="container-projetos">
-                <div>
-                    <h3>SORVETERIA HEAVEM</h3>
-                    <a href="Projects/HEAVEN/index.html" target="_blank" class="externo">
-                        <img src="imgs/Heaven.jpg" id="guia">
-                    </a>
-                </div>
-                <div>
-                    <h3>GUIA DE VIAGENS</h3>
-                    <a href="Projects/guia de viagem/index.html" target="_blank" class="externo">
-                        <img src="imgs/guiaDeViagens.jpeg" id="guia">
-                    </a>
-                </div>
-           
-
-                <div>
-                    <h3>AGÊNCIA X</h3>
-                     <a href="Projects/Site de agência/index.html" target="_blank" class="externo">
-                        <img src="imgs/agencia.jpeg" id="agencia">
-                    </a>
-                </div>
-                <div>
-                    <h3>FORMULÁRIO</h3>
-                    <a href="Projects/Formulário/index.html" target="_blank" class="externo">
-                        <img src="https://img.freepik.com/vetores-gratis/formulario-de-reivindicacao-ilustracao_126283-518.jpg?size=626&ext=jpg">
-                    </a>
-                </div>
-            </div>
-        </section>
-        <a href="https://www.instagram.com/desbugirls/" target="_blank" class="externo" id="titulo_desbu2">
-            <h1 id="titulo_desbu">@Desbugirls</h1>
-        </a>
-        <aside class="desbugirls">
-            <p>A conta do desbugirls foi criada com o intuito de ajudar outras pessoas, principalmente mulheres. Logo que conheci e comecei nesse área de tecnologia, percebi que tinha poucas mulheres na área, e falta de informação para quem está começando. Logo, o desbugirls como o próprio nome indica, veio para desbugar a vida de quem precisa, com dicas, curiosidades, informaçõe sobre o mundo da tecnologia e muito mais!</p>
-           <img src="imgs/desbu2.jpeg" alt="logo do desbugirls">
-        </aside>
+   
     </main>
-    <footer>
-        <div class="rodapé">
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/alanaspinelli/" target="_blank" class="externo">
-                        <img src="imgs/linkedinjpeg.jpeg" alt="Linkedin" class="icones_contatos">
-                        <p>Linkedin</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Alana-s" target="_blank" class="externo">
-                        <img src="imgs/github.png" alt="Github" class="icones_contatos">
-                        <p>Github</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/_alanaspinelli/" target="_blank" class="externo">
-                        <img src="imgs/insta.png" alt="Instagram" class="icones_contatos">
-                        <p>Instagram</p>
-                    </a>
-                </li>
-            </ul>
-            <h3>Alana Spinelli &copy; | 2022</h3>
-        </div>
-    </footer>
-</body>
+    <script src="script.js"></script>
 </body>
 </html>
+
